@@ -43,8 +43,10 @@
                   </li>
                   <li>
                     <div class="input-group mt-3">
+                      
                       <input type="text" class="form-control mb-2" id="searchField" placeholder="Search"
                         aria-label="Search" aria-describedby="basic-addon2" />
+                        
                       <div class="input-group-append" style="margin-bottom: 4%">
                         <button class="btn btn-outline-secondary btn-sm" type="button" id="button-search"
                           onclick="search()">
@@ -52,6 +54,9 @@
                         </button>
                       </div>
                     </div>
+                  </li>
+                  <li>
+                    <button type="button" id="button-album" onclick="album()" class="btn btn-light">Album</button>
                   </li>
                 </ul>
               </div>
@@ -92,6 +97,7 @@
             <div id="eminem" class="d-none">
               <h2>Eminem</h2>
               <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3" id="eminemSection">
+                  
               </div>
             </div>
           </div>
@@ -160,7 +166,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
   </div>
