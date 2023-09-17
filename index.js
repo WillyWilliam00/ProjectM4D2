@@ -1,5 +1,11 @@
 const SearchArtista = document.querySelector("#searchField")
+const Eminem = document.querySelector("#eminem")
+const Metallica = document.querySelector("#metallica")
+const Queen = document.querySelector("#queen")
 function search() {
+    
+
+    clean()
     if(SearchArtista.value){
         FetchTotale(SearchArtista.value)
     } else {
@@ -30,3 +36,10 @@ function FetchTotale(artista) {
         })
 }
 
+function clean() {
+
+    Eminem.className = "d-none"
+    Metallica.className = "d-none"
+    Queen.className = "d-none"
+    
+}
